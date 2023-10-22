@@ -10,6 +10,7 @@ body {
 }
 
 
+   /* ? minore uguale di 480px */
 
 
 
@@ -38,6 +39,28 @@ body {
 
 /* dimensioni macrostruttura --------------------------------------------------------- */
 
+.section-header {
+    max-width: 480px;
+    max-height: 100%;
+   align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+.container-header {
+    width: 95%;
+    height: 100%;
+    justify-content: space-between;
+    padding: 20px;
+   
+    
+}
+
+
+
+
 .section-full {
     max-width: 480px;
     max-height: 100%;
@@ -48,7 +71,7 @@ body {
   
 
 
-.section-about {
+footer {
     max-width: 480px;
     max-height: 100%;
    align-items: center;
@@ -58,6 +81,16 @@ body {
 
 
 .container-standard {
+    width: 95%;
+    height: 100%;
+    justify-content: space-between;
+    padding: 20px;
+   
+    
+}
+
+
+.container-main {
     width: 95%;
     height: 100%;
     justify-content: space-between;
@@ -344,4 +377,125 @@ h2 {
     height: 100%;
     width: 100%;
     padding: 20px 20px 0px 20px;
+}
+
+
+
+/* ? minore uguale di 768px */
+
+
+
+@media screen and (min-width: 480px){
+
+.section-full {
+
+    max-width: 768px;
+    max-height: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+  }
+
+
+  .section-header {
+    max-width: 768px;
+  
+   align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+.container-standard {
+  width: 25%;
+  
+
+    padding: 0px;
+    margin: 10px;
+   
+}
+
+.container-main {
+    width: 100%;
+
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    
+   
+   
+    
+}
+
+
+.card-main {
+    max-width: 65%;
+
+    margin-top: 10px;
+   
+  
+}
+
+.card-square {
+    max-width: 30%;
+
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    
+   
+}
+
+.card-vertical {
+     width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 55px;
+    margin-top: 40px;
+}
+
+
+
+
+.item-big {
+    width: 60%;
+    height: 100%;
+}
+
+
+h1 {
+    font-size: 15px
+}
+
+h2 {
+    font-size: 25px
+}
+
+
+.text {
+    font-size: 14px;
+}
+
+
+.cta {
+    font-size: 75px;
+    font-weight: bold;
+} 
+
+
+.block-big {
+    height: 100%;
+    width: 100%;
+   
+}
+
+.block-middle {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+  
 }
