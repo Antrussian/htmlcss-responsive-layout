@@ -48,6 +48,15 @@ body {
   
 
 
+.section-about {
+    max-width: 480px;
+    max-height: 100%;
+   align-items: center;
+    padding: 15px;
+
+  }
+
+
 .container-standard {
     width: 95%;
     height: 100%;
@@ -138,6 +147,13 @@ body {
 }
 
 
+.no-margin-bottom 
+    {
+        margin-bottom: 0px;
+    }
+
+
+
 
 /* colori --------------------------------------------------------- */
 
@@ -159,8 +175,9 @@ body {
    
 }
 
-.bg-dark-grey {
+.bg-darkgrey {
     background-color: #333333;
+    margin: 0;
 }
 
 
