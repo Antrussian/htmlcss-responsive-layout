@@ -253,6 +253,12 @@ h2 {
 }
 
 
+.cta {
+    font-size: 75px;
+    font-weight: bold;
+} 
+
+
 .button {
     border: none;
     border-radius: 20px;
@@ -273,15 +279,34 @@ h2 {
 }
 
 .button-more {
+    height: 100%;
+    width: 40%;
+    background-color:  #9792E4;
+    color: white;
+    padding: 10px 20px 10px 20px;
+   justify-content: center;
 
 }
 
 .button-social {
+        height: 100%;
+    width: 60%;
+    background-color:  #9792E4;
+    color: white;
+    padding: 10px 20px 10px 20px;
+   justify-content: center;
+
 
 }
 
 
 .button-get {
+            height: 100%;
+    width: 80%;
+    background-color:  white;
+    color: #9792E4;
+    padding: 20px 40px 20px 40px;
+   justify-content: center;
 
 }
 
