@@ -95,7 +95,7 @@ footer {
     width: 95%;
     height: 100%;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
    
     
 }
@@ -122,8 +122,9 @@ footer {
     height: 100%;
     padding: 20px 20px 0px 20px;
     margin-top: 20px;
-    line-height: 20px;
+align-items: flex-start;
    margin-bottom: 20px;
+   
 }
 
 .card-square {
@@ -140,6 +141,20 @@ footer {
     padding: 20px;
     border-radius: 55px;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-planning {
+    width: 100%;
+   height: 100%;
+   padding: 30px 20px 30px 20px;
+   border-radius: 55px;
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 
@@ -179,8 +194,18 @@ footer {
 }
 
 
+.item-hero {
+    width: 80%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+
 .border-radius-max {
     border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
    
 }
 
@@ -295,16 +320,27 @@ footer {
 
 
 h1 {
-    font-size: 27px
+    font-size: 27px;
 }
 
 h2 {
-    font-size: 25px
+    font-size: 25px;
+    padding: 15px;
 }
 
 
 .text {
     font-size: 15px;
+    padding: 5px;
+    line-height: 25px;
+}
+
+
+.firm {
+    display: block;
+    font: 400;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
 }
 
 
@@ -316,7 +352,7 @@ h2 {
 
 .button {
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     height: 100%;
     width: 100%;
    
@@ -324,12 +360,13 @@ h2 {
 
 
 .button-store {
-    height: 100%;
-    width: 100%;
+  
+    width: 70%;
     background-color:  #0084FD;
     color: white;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
    justify-content: center;
+   margin: 40px 0px 40px 20px;
 
 }
 
@@ -365,6 +402,17 @@ h2 {
 
 }
 
+
+.button-down {
+    display: flex;
+    width: 5%;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50%;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    
+}
 
 .block-small {
     height: 35%;
@@ -433,10 +481,10 @@ h2 {
 
 
 .container-standard {
-  width: 25%;
+  width: 100%;
   
 
-    padding: 0px;
+    padding: 20px;
     margin: 10px;
    
 }
@@ -459,42 +507,48 @@ h2 {
     max-width: 65%;
     margin: 0px 0px 0px 10px;
     margin-top: 10px;
-   
+    padding: 10px 10px 0px 10px;
+    justify-items: baseline;
+    
   
 }
 
 .card-square {
     max-width: 30%;
-
+    justify-content: center;
     margin: 10px 10px 10px 10px;
-    padding: 10px 10px 160px 10px;
+    padding: 10px 10px 120px 10px;
     
    
 }
 
 .card-vertical {
-     width: 100%;
-    height: 100%;
-    padding: 20px;
-    border-radius: 55px;
-    margin-top: 40px;
+    width: 100%;
+   height: 100%;
+   padding: 30px 20px 30px 20px;
+   border-radius: 55px;
+   margin-top: 40px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
 }
+
 
 
 
 
 .item-big {
-    width: 60%;
+    width: 100%;
     height: 100%;
 }
 
 
 h1 {
-    font-size: 15px
+    font-size: 65px
 }
 
 h2 {
-    font-size: 25px
+    font-size: 20px
 }
 
 
@@ -519,6 +573,51 @@ h2 {
     height: 100%;
     width: 100%;
 
+}
+
+
+.border-radius-max {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+   
+}
+
+.block-small {
+    height: 35%;
+    width: 100%;
+    padding: 20px;
+}
+
+.block-middle {
+   
+    width: 100%;
+    padding: 20px;
+}
+
+.block-big {
+    height: 100%;
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+}
+
+.item-hero {
+    width: 50%;
+    height: 100%;
+    align-items: flex-start;
+}
+
+
+.card-vertical {
+    width: 100%;
+   height: 100%;
+   padding: 30px 20px 30px 20px;
+   border-radius: 55px;
+   margin-top: 40px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
 }
 
 
