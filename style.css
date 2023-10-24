@@ -91,6 +91,17 @@ footer {
 }
 
 
+
+.container-benefit {
+    width: 95%;
+    height: 100%;
+    justify-content: space-between;
+    padding: 20px;
+   
+    
+}
+
+
 .container-main {
     width: 95%;
     height: 100%;
@@ -145,6 +156,23 @@ align-items: flex-start;
     flex-direction: column;
     align-items: center;
 }
+
+
+
+
+.card-benefit {
+     width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 55px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 
 .card-planning {
     width: 100%;
@@ -497,8 +525,18 @@ h2 {
     flex-wrap: wrap;
     margin-top: 0px;
     
-   
-   
+}
+
+
+
+.container-benefit {
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     
 }
 
@@ -530,6 +568,18 @@ h2 {
    margin-top: 40px;
    display: flex;
    flex-direction: row;
+   align-items: center;
+}
+
+
+.card-benefit {
+    width: 45%;
+   height: 50%;
+   padding: 20px 10px 20px 10px;
+   border-radius: 35px;
+   margin: 10px 5px 10px 5px;
+   display: flex;
+   flex-direction: column;
    align-items: center;
 }
 
@@ -587,19 +637,19 @@ h2 {
 .block-small {
     height: 35%;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .block-middle {
    
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .block-big {
     height: 100%;
     width: 100%;
-    padding: 20px 20px 0px 20px;
+    padding: 10px 10px 0px 10px;
 }
 
 .item-hero {
@@ -609,16 +659,10 @@ h2 {
 }
 
 
-.card-vertical {
-    width: 100%;
-   height: 100%;
-   padding: 30px 20px 30px 20px;
-   border-radius: 55px;
-   margin-top: 40px;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-}
+
+
+
+
 
 
   
